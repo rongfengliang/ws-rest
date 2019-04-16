@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "jmespath": "^0.15.0",
+    "node-fetch": "^2.3.0",
+    "websocket": "^1.0.28"
+  },
+  "scripts": {
+    "start":"node index.js"
+  }
+}

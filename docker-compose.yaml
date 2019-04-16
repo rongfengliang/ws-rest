@@ -1,0 +1,9 @@
+version: "3"
+services:
+    ws2rest:
+      image: dalongrong/simplews2rest
+      build: ./
+      ports:
+      - "3000:3000"
+      env_file: 
+      - app.env
